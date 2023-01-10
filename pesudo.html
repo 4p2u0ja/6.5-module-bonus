@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color: royalblue;}
+        h1:hover{color: skyblue;
+        background-color: brown;}
+        .pesudo:focus{color: blue;
+        font-size: larger;}
+        a :visited{color: blueviolet;}
+        li:first-child{color: aqua;}
+        li:last-child{background-color:gold ;}
+         li:nth-child(2n){color: blueviolet; }
+           /* n ar maan even number */
+           li:nth-child(2n+1){background-color: cadetblue;}
+           /* n ar maan odd number */
+           h3::before{content: 'big ';}
+           /* element jog korte :: dea hoy (ai khane before use kore 'big' word add kora hoise h3 tag ar maje) */
+           /* h3::after{content: ' small ';
+        background-color: aqua;} */
+        .special::after{content: ' middle';}
+
+
+    </style>
+      <!-- hover ar mane holo(onk style kora ar  jonno) jokhon mouse nibo likhar upor tokhon onno color hoe jabe  -->
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text"><br>
+        <input class="pesudo"type="text">
+      <br>  <input type="text"><br>
+      <a href="https://www.google.com/" >google e jao</a>
+      <a href="https://www.youtube.com/"> youtube e jao</a>
+      <br>
+      <ul>
+        <li>vaat </li>
+        <li>lobon</li>
+        <li>pani</li>
+        <li>daal</li>
+<li>dim</li>
+<li>gaza</li>
+<li>fruit</li>
+<li>food</li>
+<li>polau</li> 
+<li>flex</li>     
+    </ul>
+    <h3 class="special">hello world 1</h3>
+    <h3>hello world 2</h3>
+    <h3>hello world 3</h3>
+    <h3 class="special">hello world 4</h3>
+<!-- ( h*4{hello world $} dia enter chaple upore ar guli ase serial wise) -->
+
+
+</body>
+</html>
